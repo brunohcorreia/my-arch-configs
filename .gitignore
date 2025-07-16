@@ -1,0 +1,69 @@
+# Diretórios de usuário que não são dotfiles (use os nomes exatos do seu sistema)
+Downloads/
+Documentos/
+Imagens/
+Músicas/
+Vídeos/
+'Área de trabalho'/ # Use aspas simples por causa do espaço
+Modelos/
+Público/
+Apps/
+MC-SERVER/
+IC/
+
+
+# Diretórios de cache e temporários
+.cache/
+.local/
+.var/
+.thumbnails/
+.vscode-oss/
+.stremio-server/
+.
+
+# Pastas de dados de programas (perfis, etc.)
+.mozilla/ # Perfil completo do Firefox (muito grande e sensível)
+.config/chromium/ # Perfil completo do Chromium (muito grande e sensível)
+.config/discord/ # Dados do Discord
+.config/spotify/ # Dados do Spotify
+.config/blender/ # Configs do Blender (pode ser grande, com add-ons)
+.config/GIMP/ # Configs do GIMP (pode ser grande)
+.config/godot/ # Configs do Godot Engine (pode conter projetos)
+.config/Joplin/ # Dados do Joplin
+.config/joplin-desktop/ # Dados do Joplin Desktop
+.config/Logseq/ # Dados do Logseq
+.config/instaloader/ # Dados do Instaloader
+.config/Electron/ # Caches e dados de apps Electron
+.config/go/ # Pastas relacionadas a Go
+.config/matplotlib/ # Cache ou configs geradas pelo Matplotlib
+.steam/ # Dados do Steam (biblioteca de jogos)
+
+# Configurações de Editores de Código e IDEs 
+# Geralmente contêm caches, dados de workspace, ou configs muito específicas.
+.vscode/ # Configurações do VS Code
+.config/Code - OSS/ # Configurações do Code - OSS
+.config/nvim/undo/ # Arquivos de undo do Neovim (geralmente gerados)
+.config/nextjs-nodejs/ # Projetos ou configurações de desenvolvimento web
+
+# Outros repositórios Git
+*/.git/
+
+# Arquivos temporários e de swap de editores
+*.swp
+*.swo
+*~
+
+# --- 7. Configurações Específicas do KDE (se você não usa/não se importa) ---
+# Se você usa ou pretende usar KDE Plasma, pode querer revisar e incluir
+# algumas dessas, mas muitas são caches ou configs dinâmicas.
+baloofileinformationrc
+dolphinrc
+filetypesrc
+kde.org/
+okularrc
+
+# --- 8. Arquivos de Session/Runtime (Excluir) ---
+session/
+pulse/ # Geralmente dados de runtime/cache de áudio
+yay/ # Se esta pasta yay/ for para compilações do AUR, deve ser ignorada.
+     # (Se for a pasta ~/.config/yay que armazena cache de compilação, ignore)

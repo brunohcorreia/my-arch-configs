@@ -1,0 +1,54 @@
+window {
+margin: 10px;
+border: 10px;
+background-color: #c0caf5;
+border-radius: 12px;
+overflow: hidden;
+}
+
+#input {
+margin: 5px;
+border: 2px;
+background-color: rgba( 0, 0 , 8, 0.9);
+color:;
+border-radius: 2px;
+overflow: hidden;
+}
+
+#inner-box {
+margin: 2px;
+border: 2px;
+background-color:rgba( 0, 0 , 8, 0.9) ;
+border-radius: 6px;
+overflow: hidden;
+}
+
+#outer-box {
+margin: 3px;
+border: 10px;
+background-color: rgba( 0, 0 , 8, 0.9);
+border-radius: 12px;
+overflow: hidden;
+}
+
+#scroll {
+margin: 2px;
+border: 2px;
+background-color: rgba(0,0,8,0.9);
+border-radius: 12px;
+overflow: hidden;
+}
+
+#text {
+margin: 2px;
+border: 2px;
+color: #c0caf5;
+border-radius: 12px;
+overflow: hidden;
+} 
+#text:selected {
+	color: black;
+}
+#entry:selected {
+	color:#c0caf5;
+}
